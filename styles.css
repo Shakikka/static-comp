@@ -9,6 +9,9 @@ nav {
   color: white;
 }
 
+h1 {
+  margin-left: 20px;
+}
 .user-name {
   align-self: flex-end;
   color: #32b2fc;
@@ -33,6 +36,12 @@ nav {
   align-items: space-around;
 }
 
+.card-box {
+  display: grid;
+  grid-template: repeat(2, 50%) / repeat(4, 25%);
+
+  margin: 20px;
+}
 
 
 
@@ -40,10 +49,23 @@ nav {
 
 
 /* tablet */
-@media screen and (max-width: 900px) {
-
+@media screen and (max-width: 1024px) {
+  .card-box {
+    grid-template: repeat(4, 25%) / repeat(2, 50%);
+  }
 }
 /* mobile */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
+  .nav {
+    width: 100%;
+  }
 
+  .buttons {
+    justify-content: space-between;
+    
+  }
+
+  .card-box {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
