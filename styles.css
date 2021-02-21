@@ -52,8 +52,36 @@ h1 {
 }
 
 .main-image {
+  grid-column: 1 / 6;
+  grid-row: 1 / 3;
   width: 100%;
   height: 200px;
+}
+
+.image-box {
+  display: grid;
+  grid-template: repeat(3, 33.34%) / repeat(5, 20%);
+  text-align: center;
+}
+
+.arrow {
+  grid-column: 1/1;
+  grid-row: 1/1;
+  height: 50px;
+  width: 50px;
+}
+
+.views {
+  color: white;
+  grid-area: 1/5/1/6;
+}
+
+.count {
+  font-size: 200px;
+}
+
+span {
+  font-size: 50px;
 }
 
 
@@ -64,6 +92,8 @@ h1 {
 @media screen and (max-width: 1024px) {
   .card-box {
     grid-template: repeat(4, 25%) / repeat(2, 50%);
+    margin-left: 10px;
+    grid-gap: 10px;
   }
 }
 /* mobile */
