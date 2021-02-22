@@ -26,8 +26,8 @@ of CSS Grid, as well as learn about responsive design.
 
 ## Guide Comp:
 
-<img src="assets/ScreenShot2.png"
+<img src="assets/ScreenShot2.png">
 
 ## My Comp:
 
-<img src="assets/ScreenShot1.png"
+<img src="assets/ScreenShot1.png">
