@@ -25,8 +25,9 @@ everything except for the layout. It was designed to help introduce us to the us
 of CSS Grid, as well as learn about responsive design.
 
 ## Guide Comp:
-<img src="assets/Screen Shot 2021-02-21 at 5.01.23 PM.png"
+
+<img src="assets/ScreenShot2.png"
 
 ## My Comp:
 
-<img src="assets/Screen Shot 2021-02-21 at 5.00.48 PM.png"
+<img src="assets/ScreenShot1.png"
